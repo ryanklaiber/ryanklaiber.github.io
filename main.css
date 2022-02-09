@@ -1,0 +1,51 @@
+header {
+text-align: center;
+background-color: lightblue;
+}
+
+nav {
+display: flex;
+justify-content: space-around;
+font-size: 50px;
+color: yellow;
+text-align: center;
+} 
+
+section {
+background-image: radial-gradient(circle, red, black, white, black, white);
+}
+
+.hover {
+width: 300px; 
+height: 300px;
+background-image: radial-gradient(circle, red, yellow, orange, yellow, orange);
+}
+
+.hover:hover {
+background-image: radial-gradient(circle, red, black, white, black, white);
+}
+
+img {
+width: 50%;
+height: 50%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+a {
+target: _blank;
+text-decoration: none;
+}
+
+a:link {
+color: black;
+}
+
+h2 {
+font-size: 80px;
+}
+
+
+
+
